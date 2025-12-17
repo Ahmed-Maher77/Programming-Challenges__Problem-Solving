@@ -10,3 +10,4 @@ package-lock.json
 *.sublime-project
 *.sublime-workspace
 *.sublime-settings
+/test
