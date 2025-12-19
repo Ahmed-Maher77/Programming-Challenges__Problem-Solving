@@ -1,6 +1,6 @@
 # 🧠 Programming Challenges & Problem Solving
 
-Welcome to your all-in-one hub for mastering problem-solving through coding! This repository is a growing collection of challenges and solutions from various platforms such as **Codewars**, **LeetCode**, **HackerRank**, **Edabit**, and **Codeforces**—designed to strengthen your skills in **JavaScript**, **TypeScript**, and beyond.
+Welcome to your all-in-one hub for mastering problem-solving through coding! This repository is a growing collection of challenges and solutions from various platforms such as **Codewars**, **LeetCode**, **HackerRank**, **Edabit**, and **Codeforces**—designed to strengthen your skills in **JavaScript**, **TypeScript**, **C++**, and beyond.
 
 ---
 
@@ -9,10 +9,9 @@ Welcome to your all-in-one hub for mastering problem-solving through coding! Thi
 ```
 Programming-Challenges__Problem-Solving/
 │
-├── codewars-js/             # JavaScript solutions for Codewars problems
-├── codewars-ts/             # TypeScript solutions for Codewars problems
-├── leetcode-js/             # JavaScript solutions for LeetCode problems
-├── general-problem-solving/ # Other problems not tied to a specific platform
+├── Leetcode-Challenges/      # solutions for LeetCode problems using different programming languages
+├── codewars-js/              # JavaScript solutions for Codewars problems
+├── general-problem-solving/  # Other problems not tied to a specific platform
 ```
 
 
