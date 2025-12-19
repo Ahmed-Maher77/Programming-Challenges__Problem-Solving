@@ -1,5 +1,9 @@
 // ========================== Solution 1 ========================== //
-// Using Hash Table (unordered_map)  => Time Complexity [best/average/worst]: O(n)
+// Using Hash Table (unordered_map)  
+// Time Complexity: 
+    // best/average case => O(n) 
+    // worst case: O(n^2)
+
 
 class Solution {
 public:

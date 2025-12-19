@@ -24,7 +24,11 @@ function twoSum(nums: number[], target: number): number[] {
 
 
 // =================== Solution 2 =================== //
-// using Hash Table (Map) => O(n)
+// using Hash Table (Map)
+// Time Complexity: 
+    // best/average case => O(n) 
+    // worst case: O(n^2)
+    
 function twoSum(nums: number[], target: number): number[] {
     // create a hash table => {ele, index}
     // loop over the array => i = 0:<size
