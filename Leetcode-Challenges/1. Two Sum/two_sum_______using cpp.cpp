@@ -59,3 +59,38 @@ public:
         return {}; // return empty vector if no solution is found
     }
 };
+
+
+// ===================== Solution 3 ===================== //
+// Using brute-force with iterators + std::find
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        // loop theough nums array
+            // complement = target - nums[i]
+            // search for [complement] starting from the next elmenent
+            // if: complement exists in nums array
+                // T => return [i, complement index]
+                // F => nothing
+        // not found => return {}
+
+        for (auto it = nums.begin(); it != nums.end(); it++) {
+            int complement = target - *it;
+            auto complementAddress = find(it+1, nums.end(), complement);
+            if (complementAddress != nums.end()) {
+                int complementIndex = complementAddress - nums.begin();
+                int itIndex = it - nums.begin();
+                return {itIndex, complementIndex};
+            }
+        }
+        return {};
+    }
+};
+
+
+/*
+# Complexity
+---- Time: O(n²)
+---- Space: O(1)
+*/
