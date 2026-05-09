@@ -11,3 +11,5 @@ package-lock.json
 *.sublime-workspace
 *.sublime-settings
 /test
+/*/placeholder.js
+/*/test.js
